@@ -829,3 +829,15 @@ button {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/*Стилі для смартфонів */
+@media only screen and (max-width: 480px) {
+}
+/* Стилі для планшетів */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+}
+/* Стилі для планшетів у вертикальному положенні */
+@media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+}
+/* Стилі для ноутбуків та десктопів */
+@media only screen and (min-width: 769px) {
+}
